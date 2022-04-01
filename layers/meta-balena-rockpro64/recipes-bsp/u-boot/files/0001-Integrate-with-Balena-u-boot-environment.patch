@@ -1,0 +1,27 @@
+From 1df810c21d92fba386676296ba5b760a731873de Mon Sep 17 00:00:00 2001
+From: Florin Sarbu <florin@balena.io>
+Date: Fri, 28 Jan 2022 22:19:53 +0100
+Subject: [PATCH] Integrate with Balena u-boot environment
+
+Upstream-Status: Inappropriate [configuration]
+Signed-off-by: Florin Sarbu <florin@balena.io>
+---
+ include/config_distro_bootcmd.h | 2 +-
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+
+diff --git a/include/config_distro_bootcmd.h b/include/config_distro_bootcmd.h
+index fc0935fa21..9cc8c094eb 100644
+--- a/include/config_distro_bootcmd.h
++++ b/include/config_distro_bootcmd.h
+@@ -464,7 +464,7 @@
+ 		"\0"                                                      \
+ 	\
+ 	"scan_dev_for_boot_part="                                         \
+-		"part list ${devtype} ${devnum} -bootable devplist; "     \
++		"setenv devplist ${resin_root_part}; "                    \
+ 		"env exists devplist || setenv devplist 1; "              \
+ 		"for distro_bootpart in ${devplist}; do "                 \
+ 			"if fstype ${devtype} "                           \
+-- 
+2.17.1
+
