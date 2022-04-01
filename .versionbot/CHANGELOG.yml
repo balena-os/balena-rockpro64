@@ -1,4 +1,18 @@
 - commits:
+    - subject: Specify full path in repo.yml upstreams
+      hash: fa04b1e4d4886a209458e55814f6034ba89eb7c9
+      body: ""
+      footer:
+        Changelog-entry: Specify full path in repo.yml upstreams
+        changelog-entry: Specify full path in repo.yml upstreams
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.94.5+rev1
+  title: "'Enable renovate'"
+  date: 2022-04-01T16:51:24.084Z
+- commits:
     - subject: Add initial support for PINE64 ROCKPro64
       hash: 1d5c218260b3f5a43acbb7e96f6cad490ec8792c
       body: ""
