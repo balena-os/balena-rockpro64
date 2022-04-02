@@ -1,4 +1,23 @@
 - commits:
+    - subject: Disable kernel-modules-headers to circumvent a kernel-headers-test
+        compile issue
+      hash: b44038456e2b07de5dd31ae56408137636988fa4
+      body: |
+        We temporarily disable this package because of a compile issue
+        with kernel-headers-test as we need a quick deploy for this board.
+      footer:
+        Changelog-entry: Disable kernel-modules-headers to circumvent a
+          kernel-headers-test compile issue
+        changelog-entry: Disable kernel-modules-headers to circumvent a
+          kernel-headers-test compile issue
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.94.5+rev2
+  title: "'samples/local.conf.sample: Disable kernel-modules-headers'"
+  date: 2022-04-02T08:59:57.068Z
+- commits:
     - subject: Specify full path in repo.yml upstreams
       hash: fa04b1e4d4886a209458e55814f6034ba89eb7c9
       body: ""
