@@ -1,6 +1,9 @@
 # Supported machines
 #MACHINE ?= "rockpro64"
 
+# temporarily disable kernel headers in order to circumvent a compile issue of kernel-headers-test
+BALENA_DISABLE_KERNEL_HEADERS = "1"
+
 # More info meta-resin/README.md
 #TARGET_REPOSITORY ?= ""
 #TARGET_TAG ?= ""
