@@ -39,6 +39,9 @@ EOF
 	install -m 0644 idbloader.img u-boot.itb ${D}/boot
 }
 
+# Ensure this isn't re-used from sstate
+do_deploy[nostamp] = "1"
+
 do_deploy:append() {
 	cp ${B}/idbloader.img ${B}/u-boot.itb ${DEPLOY_DIR_IMAGE}
 }
