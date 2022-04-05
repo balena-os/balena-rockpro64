@@ -1,6 +1,11 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.94.5+rev3
+## (2022-04-04)
+
+* Add renovate configuration [Alex Gonzalez]
+
 # v2.94.5+rev2
 ## (2022-04-02)
 

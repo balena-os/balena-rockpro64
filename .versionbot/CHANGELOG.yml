@@ -1,4 +1,18 @@
 - commits:
+    - subject: Add renovate configuration
+      hash: da946f3ce5f20c25c12fb9b126cc0ce00dae74ea
+      body: ""
+      footer:
+        Changelog-entry: Add renovate configuration
+        changelog-entry: Add renovate configuration
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.94.5+rev3
+  title: "'Add renovate configuration'"
+  date: 2022-04-04T08:58:33.058Z
+- commits:
     - subject: Disable kernel-modules-headers to circumvent a kernel-headers-test
         compile issue
       hash: b44038456e2b07de5dd31ae56408137636988fa4
