@@ -1,6 +1,20 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.98.16
+## (2022-05-06)
+
+
+<details>
+<summary> Update layers/meta-balena to 23c6581bee55a61231cdc61e108418e743b7df3e [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.16
+> ### (2022-05-05)
+> 
+> * renovate: Replace tests with tests/suites in default ignorePaths [Kyle Harding]
+> 
+</details>
+
 # v2.98.15
 ## (2022-05-04)
 
