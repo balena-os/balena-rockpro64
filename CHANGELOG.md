@@ -1,6 +1,55 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.98.23
+## (2022-05-13)
+
+
+<details>
+<summary> Update layers/meta-balena to 5e9ec7690114640a5a7c3f6c94bb7e3ed37977ab [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.23
+> ### (2022-05-11)
+> 
+> * linux-firmware: Fix quz-a0-hr-b0 and quz-a0-jf-b0 packaging for compression [Michal Toman]
+> 
+> ## meta-balena-2.98.22
+> ### (2022-05-11)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 01719b5 [Renovate Bot] </summary>
+> 
+>> ### leviathan-2.3.3
+>> #### (2022-05-09)
+>> 
+>> * Fixes spelling and grammar in e2e [Alex]
+>> 
+>> ### leviathan-2.3.2
+>> #### (2022-05-02)
+>> 
+>> * Record environment variables to file for client env [Kyle Harding]
+>> 
+>> ### leviathan-2.3.1
+>> #### (2022-05-02)
+>> 
+>> * patch: Remove development shortcuts [Vipul Gupta (@vipulgupta2048)]
+>> 
+>> ### leviathan-2.3.0
+>> #### (2022-04-29)
+>> 
+>> * minor: Add support for debug object [Vipul Gupta (@vipulgupta2048)]
+>> 
+>> ### leviathan-2.2.14
+>> #### (2022-04-29)
+>> 
+>> * patch: Remove Express server port config [Vipul Gupta (@vipulgupta2048)]
+>> 
+> </details>
+> 
+> 
+</details>
+
 # v2.98.21
 ## (2022-05-11)
 
