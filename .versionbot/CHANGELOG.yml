@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67
+      hash: cefffce56d32d258792c565e1a7ada3930e3f85c
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67
+        changelog-entry: Update layers/meta-balena to 55903947dc4dbbf7a0a1c5626ba6c8eaa1b09f67
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Remove localMode setting from standalone image configuration
+              hash: 26aa3caf4e4d649d323e57c21f818ca83a9b9b13
+              body: >
+                The `localMode` variable in `config.json` is not longer used and
+                it can
+
+                be removed
+
+
+                Fixes #2041
+              footer:
+                Change-type: patch
+                change-type: patch
+                Changelog-entry: Remove localMode setting from standalone image configuration
+                changelog-entry: Remove localMode setting from standalone image configuration
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.98.30
+          title: "'image-balena: Remove localMode from standalone image configuration'"
+          date: 2022-05-24T10:09:17.695Z
+    - subject: Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0
+      hash: 8aa79236ede1caf09b8d55556481311f649f5a35
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0
+        changelog-entry: Update balena-yocto-scripts to 7b2a89987f196ec4261d240a88c1790c55b366b0
+      author: Renovate Bot
+      nested: []
+  version: 2.98.30
+  title: "'Update layers/meta-balena digest to 5590394'"
+  date: 2022-05-26T18:01:50.669Z
+- commits:
     - subject: Update layers/meta-balena to c8f7eb1fdd6b342cc816e7b2b7e0c60634de2e87
       hash: 0108b209badc3857b10bd482a3295ce083686f62
       body: Update layers/meta-balena
