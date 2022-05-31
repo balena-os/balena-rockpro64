@@ -1,4 +1,58 @@
 - commits:
+    - subject: Update layers/meta-balena to 95c96e0624507fd9701912c67d3ae5ec5dbdf6f9
+      hash: 150af4983590702bb6b39ee55c4bd0d81a40b370
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 95c96e0624507fd9701912c67d3ae5ec5dbdf6f9
+        changelog-entry: Update layers/meta-balena to 95c96e0624507fd9701912c67d3ae5ec5dbdf6f9
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: Update tests/leviathan digest to 95649fb
+              hash: 4216f127f4935cb6e0adeccaf7c20daec55fcff7
+              body: Update tests/leviathan
+              footer:
+                Change-type: patch
+                change-type: patch
+              author: Renovate Bot
+              nested:
+                - commits:
+                    - subject: "workers: qemu: fix vars path for x86_64"
+                      hash: b34b92dde6b9b55e9e8393f61787de6895a6e339
+                      body: ""
+                      footer:
+                        Change-type: patch
+                        change-type: patch
+                        Signed-off-by: Joseph Kogut <joseph@balena.io>
+                        signed-off-by: Joseph Kogut <joseph@balena.io>
+                      author: Joseph Kogut
+                      nested: []
+                  version: leviathan-2.3.5
+                  title: "'workers: qemu: fix vars path for x86_64'"
+                  date: 2022-05-25T21:12:24.421Z
+          version: meta-balena-2.98.33
+          title: "'Update tests/leviathan digest to 95649fb'"
+          date: 2022-05-27T20:39:54.151Z
+        - commits:
+            - subject: "supervisor: Update balena-supervisor to v13.1.11"
+              hash: 1f1266bd0893b963528e88dfd7fd08f232088cb9
+              body: ""
+              footer:
+                Relates-to: https://github.com/balena-os/balena-supervisor/pull/1944
+                relates-to: https://github.com/balena-os/balena-supervisor/pull/1944
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Felipe Lalanne <felipe@balena.io>
+                signed-off-by: Felipe Lalanne <felipe@balena.io>
+              author: Felipe Lalanne
+              nested: []
+          version: meta-balena-2.98.32
+          title: "'supervisor: Update balena-supervisor to v13.1.11'"
+          date: 2022-05-27T15:22:00.185Z
+  version: 2.98.33
+  title: "'Update layers/meta-balena digest to 95c96e0'"
+  date: 2022-05-31T22:56:33.015Z
+- commits:
     - subject: Update balena-yocto-scripts to 8c132cde993d3a8d9e4eea2517edf27b53b47ef3
       hash: 08c71c6119a48fcfc662a6b379e2b916c2734256
       body: Update balena-yocto-scripts
