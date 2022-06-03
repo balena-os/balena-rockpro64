@@ -1,4 +1,47 @@
 - commits:
+    - subject: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+      hash: 19af2ff202ba75eff8c2f8cee1f0c6a904ecb3fe
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+        changelog-entry: Update layers/meta-balena to ff147b2a19933df0c16fb37cb7bb294e77caa985
+      author: Renovate Bot
+      nested:
+        - commits:
+            - subject: "tests: os: udev: improve formatting"
+              hash: bab6ca92bdbd7c7b30bbb96ea1ed4319e489e832
+              body: |
+                Improve formatting of long command
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+            - subject: "tests: os: udev: use systemd.waitForServiceState"
+              hash: 82bfff92ab1dc431032f95cd3c3409210089d167
+              body: >
+                Use systemd.waitForServiceState instead of waitUntil. This
+                improves
+
+                readability, and reduces the time taken in the case that the test fails
+
+                and the default interval of waitUntil causes an excessive wait.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Joseph Kogut <joseph@balena.io>
+                signed-off-by: Joseph Kogut <joseph@balena.io>
+              author: Joseph Kogut
+              nested: []
+          version: meta-balena-2.98.35
+          title: "'Cleanup udev tests'"
+          date: 2022-06-02T18:04:49.177Z
+  version: 2.98.35
+  title: "'Update layers/meta-balena digest to ff147b2'"
+  date: 2022-06-02T23:42:14.569Z
+- commits:
     - subject: Update balena-yocto-scripts to 8cce34e9763389eb59e4e375c532c81eb592fc1e
       hash: 720004aeaaf7c0216ddb735b967bd695fe47fdfa
       body: Update balena-yocto-scripts
