@@ -1,6 +1,20 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.98.36
+## (2022-06-03)
+
+
+<details>
+<summary> Update layers/meta-balena to 17a4e839adefeedbe603b9b007800656588c6d77 [Renovate Bot] </summary>
+
+> ## meta-balena-2.98.36
+> ### (2022-06-03)
+> 
+> * os: waitForServiceState: fix missing rejectionFail [Joseph Kogut]
+> 
+</details>
+
 # v2.98.35
 ## (2022-06-02)
 
