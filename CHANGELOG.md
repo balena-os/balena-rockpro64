@@ -1,6 +1,12 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.98.42
+## (2022-06-08)
+
+* Add build and deploy workflow [Alex Gonzalez]
+* Update layers/meta-balena to 3a62a83ec12b05377b46d46bee9661b8b6b4a090 [Renovate Bot]
+
 # v2.98.41
 ## (2022-06-05)
 
