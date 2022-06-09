@@ -1,6 +1,11 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.98.42+rev1
+## (2022-06-09)
+
+* Add contracts submodule [Alex Gonzalez]
+
 # v2.98.42
 ## (2022-06-08)
 

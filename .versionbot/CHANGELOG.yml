@@ -1,4 +1,19 @@
 - commits:
+    - subject: Add contracts submodule
+      hash: 15cb6def083cdf61cb16db1271761abb43d1ea89
+      body: |
+        This is required for the balenaOS contract generation.
+      footer:
+        Changelog-entry: Add contracts submodule
+        changelog-entry: Add contracts submodule
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.98.42+rev1
+  title: "'Add contracts submodule'"
+  date: 2022-06-09T08:31:34.153Z
+- commits:
     - subject: Add build and deploy workflow
       hash: 33459e07cd289e619f63b5dd1d999634fcaa0209
       body: >
