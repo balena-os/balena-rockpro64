@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 5e003d52ac8e118af3cce662362d45f780ade704
+      hash: 76240e09dbd9ddcc9bd3f9a86318cca5996582b5
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 5e003d52ac8e118af3cce662362d45f780ade704
+        changelog-entry: Update balena-yocto-scripts to 5e003d52ac8e118af3cce662362d45f780ade704
+      author: renovate[bot]
+      nested: []
+  version: 2.98.42+rev3
+  date: 2022-07-08T19:00:36.417Z
+- commits:
     - subject: Update build and deploy workflow to support ESR tags
       hash: 04275edfba88a17239471ac0b7b467ee734fbf42
       body: |
