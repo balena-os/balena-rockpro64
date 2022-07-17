@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f
+      hash: 02056b49b88378c636d2dd3b2ae49673f28c7b30
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f
+        changelog-entry: Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f
+      author: renovate[bot]
+      nested: []
+  version: 2.98.42+rev3
+  date: 2022-07-17T14:35:54.697Z
+- commits:
     - subject: Update build and deploy workflow to support ESR tags
       hash: 04275edfba88a17239471ac0b7b467ee734fbf42
       body: |

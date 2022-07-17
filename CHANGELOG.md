@@ -1,6 +1,11 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.98.42+rev3
+## (2022-07-17)
+
+* Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f [renovate[bot]]
+
 # v2.98.42+rev2
 ## (2022-07-08)
 
