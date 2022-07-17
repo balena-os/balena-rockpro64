@@ -1,6 +1,40 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.98.42+rev3
+## (2022-07-17)
+
+
+<details>
+<summary> Update contracts to 4df6bf241e40b34e4d7051c97ba4f9cf1945c45f [renovate[bot]] </summary>
+
+> ## contracts-2.0.6
+> ### (2022-07-17)
+> 
+> * hw.device-type: Add correct tdpzu9 board [Florin Sarbu]
+> 
+> ## contracts-2.0.5
+> ### (2022-07-14)
+> 
+> * Add node v18.6.0 [Trong Nghia Nguyen]
+> * Add golang v1.8.4 and v1.17.12 [Trong Nghia Nguyen]
+> * Add node v18.5.0 v16.16.0 and v14.20.0 [Trong Nghia Nguyen]
+> * Remove Debian Stretch as it is EOL [Trong Nghia Nguyen]
+> 
+> ## contracts-2.0.4
+> ### (2022-06-21)
+> 
+> * Add libffi3.4 linked python binaries [Trong Nghia Nguyen]
+> 
+> ## contracts-2.0.3
+> ### (2022-06-13)
+> 
+> * Add Python v3.10.5 and v3.9.13 [Trong Nghia Nguyen]
+> * Add support for Alpine Linux 3.16 [Trong Nghia Nguyen]
+> * Add support for Ubuntu Jammy and Kinetic [Trong Nghia Nguyen]
+> 
+</details>
+
 # v2.98.42+rev2
 ## (2022-07-08)
 
