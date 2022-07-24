@@ -1,4 +1,15 @@
 - commits:
+    - subject: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      hash: 5f98516d0768d6f50b919535ea79ad5695bc5460
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+        changelog-entry: Update layers/meta-balena to dd080e1b54a37355856865fd7a5bb05a69b9592d
+      author: renovate[bot]
+      nested: []
+  version: 2.100.10
+  date: 2022-07-24T18:18:39.206Z
+- commits:
     - subject: Update build and deploy workflow to support ESR tags
       hash: 04275edfba88a17239471ac0b7b467ee734fbf42
       body: |
