@@ -1,4 +1,45 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
+      hash: 88ed218c0f35103f7ff19bce01990119e7f321a7
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
+        changelog-entry: Update balena-yocto-scripts to 99807501efffc8c5034c88361049650a02511a78
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "barys: Add balena-rust to syntax conversion step"
+              hash: 2fb2b25a2bc6c226f3d4d570a2bfb261585ed283
+              body: >
+                Recent versions of meta-balena include a balena-rust layer used
+                to
+
+                specify a distro-set Rust version across all supported Yocto versions
+
+
+                As such, the syntax of this layer also needs to be converted.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.19.12
+          title: "'barys: Add balena-rust to syntax conversion step'"
+          date: 2022-08-08T15:25:50.686Z
+    - subject: Update contracts to 91807ae538dccedb69877eed28ae6752287e2f21
+      hash: 558a665300c7f7d2e709e81bf50117e7cbc44e0d
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 91807ae538dccedb69877eed28ae6752287e2f21
+        changelog-entry: Update contracts to 91807ae538dccedb69877eed28ae6752287e2f21
+      author: renovate[bot]
+      nested: []
+  version: 2.101.0+rev4
+  title: "'Update balena-yocto-scripts digest to 9980750'"
+  date: 2022-08-11T12:00:20.334Z
+- commits:
     - subject: Update contracts to 3d133659481f38ee1bba63d3835a231c70c11eec
       hash: 532cc6e6f8a7856779efff8a79ba0ed8c082c930
       body: Update contracts
