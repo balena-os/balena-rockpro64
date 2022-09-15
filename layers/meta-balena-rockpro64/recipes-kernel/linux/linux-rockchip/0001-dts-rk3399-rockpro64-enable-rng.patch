@@ -1,0 +1,25 @@
+From 1bdf50c472824a7cd586c4191818966d3a8394d7 Mon Sep 17 00:00:00 2001
+From: Alex Gonzalez <alexg@balena.io>
+Date: Tue, 13 Sep 2022 14:02:43 +0200
+Subject: [PATCH] dts: rk3399-rockpro64: enable rng
+
+Signed-off-by: Alex Gonzalez <alexg@balena.io>
+---
+ arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi | 4 ++++
+ 1 file changed, 4 insertions(+)
+
+diff --git a/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi b/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi
+index 6e553ff47534..9af80abb5855 100644
+--- a/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi
++++ b/arch/arm64/boot/dts/rockchip/rk3399-rockpro64.dtsi
+@@ -246,6 +246,10 @@ &hdmi_sound {
+ 	status = "okay";
+ };
+ 
++&rng {
++	status = "okay";
++};
++
+ &gpu {
+ 	mali-supply = <&vdd_gpu>;
+ 	status = "okay";

@@ -7,9 +7,6 @@
 [submodule "layers/meta-rockchip"]
 	path = layers/meta-rockchip
 	url = https://github.com/JeffyCN/meta-rockchip.git
-[submodule "layers/meta-rust"]
-	path = layers/meta-rust
-	url = https://github.com/meta-rust/meta-rust.git
 [submodule "layers/meta-balena"]
 	path = layers/meta-balena
 	url = https://github.com/balena-os/meta-balena.git
