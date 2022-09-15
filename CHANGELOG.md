@@ -1,6 +1,13 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.103.1+rev2
+## (2022-09-15)
+
+* Use balena-rust support [Alex Gonzalez]
+* Enable firmware compression for the rockpro64. [Alex Gonzalez]
+* Enable RNG for rk3399-rockpro64 [Alex Gonzalez]
+
 # v2.103.1+rev1
 ## (2022-09-14)
 

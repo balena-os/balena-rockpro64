@@ -1,4 +1,45 @@
 - commits:
+    - subject: Use balena-rust support
+      hash: 38e15f1bdb80b04c9188de2c8b67bf95b643d930
+      body: |
+        Rust has been supported in upstream poky since Honister and this layer
+        is no longer maintained.
+
+        balenaOS now maintains its own balena-rust layer that allows to use the
+        same rust toolchain across all the supported Yocto integration layers.
+      footer:
+        Changelog-entry: Use balena-rust support
+        changelog-entry: Use balena-rust support
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>Remove meta-rust
+        signed-off-by: Alex Gonzalez <alexg@balena.io>Remove meta-rust
+      author: Alex Gonzalez
+      nested: []
+    - subject: Enable firmware compression for the rockpro64.
+      hash: 2743fc77a503c86f5a118c00799152a84cedda38
+      body: |
+        This saves some space in the rootfs allowing for hostOS updates to work.
+      footer:
+        Changelog-entry: Enable firmware compression for the rockpro64.
+        changelog-entry: Enable firmware compression for the rockpro64.
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+    - subject: Enable RNG for rk3399-rockpro64
+      hash: 5a57f8f37ef1d702b7500b7c7572c620b1b08f82
+      body: |
+        Fixes #84
+      footer:
+        Changelog-entry: Enable RNG for rk3399-rockpro64
+        changelog-entry: Enable RNG for rk3399-rockpro64
+        Signed-off-by: Alex Gonzalez <alexg@balena.io>
+        signed-off-by: Alex Gonzalez <alexg@balena.io>
+      author: Alex Gonzalez
+      nested: []
+  version: 2.103.1+rev2
+  title: "'linux-rockchip: enable RNG'"
+  date: 2022-09-15T07:40:44.032Z
+- commits:
     - subject: Update contracts to 7ea918011dc38f509a7ae3bce30c3391bc839dd9
       hash: 8abaf4e209ddccb412710fabd3600789ae5957e8
       body: Update contracts
