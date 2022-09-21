@@ -1,6 +1,11 @@
 # v2.94.5
 ## (2022-04-01)
 
+# v2.105.0+rev2
+## (2022-09-21)
+
+* this is a test PR for testbot [Alexandru Costache]
+
 # v2.105.0+rev1
 ## (2022-09-21)
 

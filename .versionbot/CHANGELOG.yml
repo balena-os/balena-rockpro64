@@ -1,4 +1,18 @@
 - commits:
+    - subject: this is a test PR for testbot
+      hash: fa34abb7c584886dd161f7356f90968b2fc4f62c
+      body: ""
+      footer:
+        Changelog-entry: this is a test PR for testbot
+        changelog-entry: this is a test PR for testbot
+        Signed-off-by: Alexandru Costache <alexandru@balena.io>
+        signed-off-by: Alexandru Costache <alexandru@balena.io>
+      author: Alexandru Costache
+      nested: []
+  version: 2.105.0+rev2
+  title: "'this is a test PR for testbot'"
+  date: 2022-09-21T12:19:31.952Z
+- commits:
     - subject: Update contracts to f2ace726406411ac4202d114ec8264a1a2c7af97
       hash: c510925a4c6a445aca09a497ac6fa2f2bf6f4051
       body: Update contracts
