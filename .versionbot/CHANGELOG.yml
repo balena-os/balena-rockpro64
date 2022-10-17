@@ -1,4 +1,32 @@
 - commits:
+    - subject: Update layers/meta-balena to bfb53e361ce9a3205e9c468f7c83b614acb3c52e
+      hash: 1e70de96a0c150ba5ea28311b66c5f47d1aeefef
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to bfb53e361ce9a3205e9c468f7c83b614acb3c52e
+        changelog-entry: Update layers/meta-balena to bfb53e361ce9a3205e9c468f7c83b614acb3c52e
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "classes: kernel-balena: Allow aufs patching to use network"
+              hash: 549c6922e4d427f37727b6dffb7e5008f5afdfb6
+              body: |
+                On kirkstone, tasks need to be explicitely allowed to access the
+                network.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-2.105.12
+          title: ""
+          date: 2022-10-17T08:41:58.221Z
+  version: 2.105.12
+  title: ""
+  date: 2022-10-17T10:01:51.083Z
+- commits:
     - subject: Update build and deploy workflow to v0.0.12
       hash: b478763ef106e14d167d08aaa5046506b62a974b
       body: |
