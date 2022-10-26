@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update contracts to c311e6f8a9832587b3bb687b22a92574b790c688
+      hash: 93fcfa469b974238e7b41cd39f2f853d6754ac9f
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to c311e6f8a9832587b3bb687b22a92574b790c688
+        changelog-entry: Update contracts to c311e6f8a9832587b3bb687b22a92574b790c688
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "sw.os+hw.device-type: Add distro-config.tpl for
+                jetson-agx-orin-devkit"
+              hash: 76dfd72bece570ec8fdf96006135603d2e81b699
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alexandru Costache <alexandru@balena.io>
+                signed-off-by: Alexandru Costache <alexandru@balena.io>
+              author: Alexandru Costache
+          version: contracts-2.0.23
+          title: ""
+          date: 2022-10-25T15:58:44.499Z
+  version: 2.105.19+rev1
+  title: ""
+  date: 2022-10-26T11:41:04.938Z
+- commits:
     - subject: Update layers/meta-balena to 38055be70d9113801797d97ddeac00012c5b151c
       hash: bc28e12b3aa17c15f53e97531bce524291c0d845
       body: Update layers/meta-balena
