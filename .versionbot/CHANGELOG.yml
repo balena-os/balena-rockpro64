@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update contracts to 4698e4ef55fdc61aa3df8d8494f2cbbd306b26c9
+      hash: d0c212e67301283243a2d489b8b897ca05d91eba
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to 4698e4ef55fdc61aa3df8d8494f2cbbd306b26c9
+        changelog-entry: Update contracts to 4698e4ef55fdc61aa3df8d8494f2cbbd306b26c9
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: Fix owa5x slug
+              hash: a310eafb4ebf50b4c91f40dca5ba0122e0949949
+              body: |
+                Only use lowercase in slug name
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+                signed-off-by: Trong Nghia Nguyen <nghiant2710@gmail.com>
+              author: Trong Nghia Nguyen
+          version: contracts-2.0.36
+          title: ""
+          date: 2022-12-22T11:15:02.988Z
+  version: 2.106.3+rev8
+  title: ""
+  date: 2022-12-22T12:41:04.653Z
+- commits:
     - subject: Update balena-yocto-scripts to 67cb61f9209482ddd22b3f98ebf6cb3609f0acb7
       hash: 77206e298fbf52bead4fd06219df27cfa7ac86cd
       body: Update balena-yocto-scripts
