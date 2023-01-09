@@ -1,4 +1,40 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 56bb055d91481023a6b6cff92d61ebfffa884139
+      hash: 00fa01ac121e305f6479bf304d54fa4ab5b542cd
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 56bb055d91481023a6b6cff92d61ebfffa884139
+        changelog-entry: Update balena-yocto-scripts to 56bb055d91481023a6b6cff92d61ebfffa884139
+      author: renovate[bot]
+      nested:
+        - commits:
+            - subject: "balena-generate-ami: Enable TPM support on x86_64 only"
+              hash: 7ee973096d3d93f0006816c310cf41d0d5097d86
+              body: |
+                On aarch64 this fails with
+                "Invalid machineArchitecture value 'arm64' for tpmSupport."
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Michal Toman <michalt@balena.io>
+                signed-off-by: Michal Toman <michalt@balena.io>
+              author: Michal Toman
+              nested: []
+          version: balena-yocto-scripts-1.19.18
+          title: ""
+          date: 2023-01-09T08:14:37.524Z
+    - subject: Update contracts to cbc450a40296e716e50344b3d625fb9a9b6975f6
+      hash: ca25d2f2b12870807342f5d5c42ff79f0830df53
+      body: Update contracts
+      footer:
+        Changelog-entry: Update contracts to cbc450a40296e716e50344b3d625fb9a9b6975f6
+        changelog-entry: Update contracts to cbc450a40296e716e50344b3d625fb9a9b6975f6
+      author: renovate[bot]
+      nested: []
+  version: 2.108.15+rev2
+  title: ""
+  date: 2023-01-09T09:55:53.958Z
+- commits:
     - subject: Update contracts to d647331a48dfbc6d398139831054d41fa52f79da
       hash: ffcca0d2843e6302cf7ce1028f2c40cef62f6d17
       body: Update contracts
