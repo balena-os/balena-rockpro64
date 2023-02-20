@@ -1,6 +1,53 @@
 Change log
 -----------
 
+# v2.112.9
+## (2023-02-20)
+
+
+<details>
+<summary> Update layers/meta-balena to 5cc1aa23062247235a71dee20760fd188cd68651 [Renovate Bot] </summary>
+
+> ## meta-balena-2.112.9
+> ### (2023-02-20)
+> 
+> 
+> <details>
+> <summary> Update tests/leviathan digest to 8a7bdcc [Renovate Bot] </summary>
+> 
+>> ### leviathan-2.21.0
+>> #### (2023-02-20)
+>> 
+>> * Update core/contracts digest to 103037c [Renovate Bot]
+>> 
+>> ### leviathan-2.20.1
+>> #### (2023-02-20)
+>> 
+>> * client: throw errors instead of blanket handling [Joseph Kogut]
+>> 
+> 
+> </details>
+> 
+> 
+> ## meta-balena-2.112.8
+> ### (2023-02-17)
+> 
+> 
+> <details>
+> <summary> Update balena-supervisor to v14.9.1 [Renovate Bot] </summary>
+> 
+>> ### balena-supervisor-14.9.1
+>> #### (2023-02-15)
+>> 
+>> * Always lower case the cpu id to avoid bouncing between casing when reporting [Pagan Gazzard]
+>> 
+> 
+> </details>
+> 
+> 
+
+</details>
+
 # v2.112.7+rev2
 ## (2023-02-20)
 
