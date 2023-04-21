@@ -1,14 +1,9 @@
 FILESEXTRAPATHS:prepend := "${THISDIR}/files:"
 
-UBOOT_KCONFIG_SUPPORT = "1"
-
 inherit resin-u-boot
-
-SRC_URI:remove = "file://resin-specific-env-integration-kconfig.patch"
 
 # we use the precompiled bl31 from https://github.com/rockchip-linux/rkbin/commit/bc15c5e21557dad5440f8ed0312ec368f73e9476
 SRC_URI:append = " \
-    file://Rework-resin-specific-env-integration-kconfig.patch \
     file://0001-Integrate-with-Balena-u-boot-environment.patch \
     file://balenaos_bootcommand.cfg \
     file://fix_boot.cfg \
@@ -43,6 +38,7 @@ EOF
 do_deploy[nostamp] = "1"
 
 do_deploy:append() {
+	mkdir -p ${DEPLOY_DIR_IMAGE}
 	cp ${B}/idbloader.img ${B}/u-boot.itb ${DEPLOY_DIR_IMAGE}
 }
 
