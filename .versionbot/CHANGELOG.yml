@@ -1,4 +1,25 @@
 - commits:
+    - subject: Compress the kernel since we are running low on space in the rootfs
+        partition
+      hash: cccff5e72e2dbd7524177ec832d46925c56aec3f
+      body: >
+        We are running low on space in the rootfs partition so we need to compress
+        the kernel or
+
+        otherwise HUP fails.
+      footer:
+        Changelog-entry: Compress the kernel since we are running low on space in the
+          rootfs partition
+        changelog-entry: Compress the kernel since we are running low on space in the
+          rootfs partition
+        Signed-off-by: Florin Sarbu <florin@balena.io>
+        signed-off-by: Florin Sarbu <florin@balena.io>
+      author: Florin Sarbu
+      nested: []
+  version: 2.114.7+rev1
+  title: ""
+  date: 2023-04-21T14:37:49.175Z
+- commits:
     - subject: Update layers/meta-balena to f2637a0d4cf774ed903613dd058ff9db037ad23e
       hash: fe8212d18cb4f99d8643997ee14cd154cf704515
       body: Update layers/meta-balena

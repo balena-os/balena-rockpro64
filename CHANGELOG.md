@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v2.114.7+rev1
+## (2023-04-21)
+
+* Compress the kernel since we are running low on space in the rootfs partition [Florin Sarbu]
+
 # v2.114.7
 ## (2023-04-20)
 
