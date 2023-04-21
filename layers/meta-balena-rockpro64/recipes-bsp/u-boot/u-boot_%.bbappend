@@ -43,6 +43,7 @@ EOF
 do_deploy[nostamp] = "1"
 
 do_deploy:append() {
+	mkdir -p ${DEPLOY_DIR_IMAGE}
 	cp ${B}/idbloader.img ${B}/u-boot.itb ${DEPLOY_DIR_IMAGE}
 }
 
