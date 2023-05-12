@@ -1,6 +1,30 @@
 Change log
 -----------
 
+# v2.114.25
+## (2023-05-12)
+
+
+<details>
+<summary> Update layers/meta-balena to 39982e107a500e0ebdacfd0d5ae33576cf2e24b4 [Renovate Bot] </summary>
+
+> ## meta-balena-2.114.25
+> ### (2023-05-12)
+> 
+> * tests: hup: enable boot-switch skip [rcooke-warwick]
+> * tests: cloud: enable boot-switch skip Commit body [rcooke-warwick]
+> * tests: os: enable boot-switch skip [rcooke-warwick]
+> 
+> ## meta-balena-2.114.24
+> ### (2023-05-11)
+> 
+> * resin-init-flasher: add more comments around efi/boot partition split [Michal Toman]
+> * resin-init-flasher: reboot into signed flasher when provisioning secure boot [Michal Toman]
+> * resin-init-flasher: Fill db EFI variable from esl file instead of auth [Michal Toman]
+> 
+
+</details>
+
 # v2.114.23
 ## (2023-05-06)
 
