@@ -1,4 +1,18 @@
 - commits:
+    - subject: Update .gitmodules with submodule branch information
+      hash: eabe9cecfc9ce9a4ccd1ea20ac8f1afd44b09449
+      body: ""
+      footer:
+        Changelog-entry: Update .gitmodules with submodule branch information
+        changelog-entry: Update .gitmodules with submodule branch information
+        Signed-off-by: Kyle Harding <kyle@balena.io>
+        signed-off-by: Kyle Harding <kyle@balena.io>
+      author: Kyle Harding
+      nested: []
+  version: 4.0.9+rev2
+  title: ""
+  date: 2023-09-19T14:00:32.136Z
+- commits:
     - subject: Update balena-os/github-workflows to v0.0.22
       hash: 4e8e175d70b2f3dedbc32bf36982a8f7c329a973
       body: Update balena-os/github-workflows
