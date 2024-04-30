@@ -1,4 +1,50 @@
 - commits:
+    - subject: Update balena-yocto-scripts to 019219edcbd508bdb1027bf56f20f8696fddba83
+      hash: 78859d57d024bbacf58e84df5e8db0ed376c8e26
+      body: Update balena-yocto-scripts
+      footer:
+        Changelog-entry: Update balena-yocto-scripts to 019219edcbd508bdb1027bf56f20f8696fddba83
+        changelog-entry: Update balena-yocto-scripts to 019219edcbd508bdb1027bf56f20f8696fddba83
+      author: Self-hosted Renovate Bot
+      nested:
+        - commits:
+            - subject: "balena-lib: improve base tag detection"
+              hash: 872bb3b1df920b026b524e041bf4f4f7c422cb2f
+              body: >
+                When a ESR release is deployed a tag with the base meta-balena
+                version
+
+                is created. This is used by the API to check for a valid OS
+                version
+
+                for updates.
+
+
+                The current mechanism to find the base version only provides an
+                ESR
+
+                version for the first commit after the branch has been created.
+
+
+                Using merge-base to find the common ancestor and `tag
+                --points-at` to
+
+                find the actual tag works for all commits after the branch is
+                created.
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: balena-yocto-scripts-1.21.9
+          title: ""
+          date: 2024-04-30T14:17:29.958Z
+  version: 5.3.2+rev2
+  title: ""
+  date: 2024-04-30T16:15:05.085Z
+- commits:
     - subject: Update balena-yocto-scripts to 9467c78fa81511321fe952477b316e830742760c
       hash: 07aed4267ac131e7afdce0474bade35074d2a7c0
       body: Update balena-yocto-scripts
