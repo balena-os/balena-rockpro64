@@ -1,4 +1,16 @@
 - commits:
+    - subject: Update layers/meta-rockchip to cbe47c2efd996c7857d91e23bb15e5e31b950ee3
+      hash: 23f928c624a36594b2a585f74eaea7d619f653dd
+      body: Update layers/meta-rockchip
+      footer:
+        Changelog-entry: Update layers/meta-rockchip to cbe47c2efd996c7857d91e23bb15e5e31b950ee3
+        changelog-entry: Update layers/meta-rockchip to cbe47c2efd996c7857d91e23bb15e5e31b950ee3
+      author: Self-hosted Renovate Bot
+      nested: []
+  version: 6.0.1+rev1
+  title: ""
+  date: 2024-07-19T23:11:16.904Z
+- commits:
     - subject: Update layers/meta-balena to 477bcf8a89128df43feca7e201bb4a5aac0e4dae
       hash: 40043ba6efb1a6bb36a0d39b1c2824024aa20d19
       body: Update layers/meta-balena

@@ -1,6 +1,11 @@
 Change log
 -----------
 
+# v6.0.1+rev1
+## (2024-07-19)
+
+* Update layers/meta-rockchip to cbe47c2efd996c7857d91e23bb15e5e31b950ee3 [Self-hosted Renovate Bot]
+
 # v6.0.1
 ## (2024-07-19)
 
