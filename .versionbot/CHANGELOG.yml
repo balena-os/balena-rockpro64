@@ -1,4 +1,30 @@
 - commits:
+    - subject: Update layers/meta-balena to 8786d755f72c35fb3b332c26b32c3de576d3d0ce
+      hash: 49b7d371a5eeda23529820d8a06eedb3f0d7eb8d
+      body: Update layers/meta-balena
+      footer:
+        Changelog-entry: Update layers/meta-balena to 8786d755f72c35fb3b332c26b32c3de576d3d0ce
+        changelog-entry: Update layers/meta-balena to 8786d755f72c35fb3b332c26b32c3de576d3d0ce
+      author: balena-renovate[bot]
+      nested:
+        - commits:
+            - subject: "kernel-headers-test: update dockerfile to bullseye"
+              hash: b1ba4caa955dc751d01e10e4159fde34dfb69f92
+              body: ""
+              footer:
+                Change-type: patch
+                change-type: patch
+                Signed-off-by: Alex Gonzalez <alexg@balena.io>
+                signed-off-by: Alex Gonzalez <alexg@balena.io>
+              author: Alex Gonzalez
+              nested: []
+          version: meta-balena-6.0.32
+          title: ""
+          date: 2024-09-21T17:20:33.365Z
+  version: 6.0.32
+  title: ""
+  date: 2024-09-21T20:20:35.877Z
+- commits:
     - subject: Update layers/meta-balena to b3ab5311c0ad999dc896ab5b9a85e48098ddd3dc
       hash: 6c00451aa086eadbbee05e5d06ef04d40c57977b
       body: Update layers/meta-balena
